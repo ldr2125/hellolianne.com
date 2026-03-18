@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Read(//private/tmp/**)",
+      "Bash(tar -xzf node-v22.tar.gz)",
+      "Bash(export:*)",
+      "Bash(cp:*)",
+      "Bash(kill 65107:*)"
+    ]
+  }
+}
