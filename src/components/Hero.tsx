@@ -70,7 +70,7 @@ export default function Hero() {
         {/* rule + tagline */}
         <div className="pt-6 border-t border-border">
           <p className="text-base md:text-lg text-muted leading-snug">
-            Building things on the internet, mostly with Claude Code.
+            Building things on the internet, scroll to learn more.
           </p>
         </div>
       </div>
