@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Kona's SF Adventure",
+    description:
+      "A pixel-art platformer where Kona — our goofy Australian Shepherd — races through the streets of San Francisco to get home before sunset.",
+    url: "/games/konas-sf-adventure",
+    tags: ["game", "pixel art", "platformer"],
+    status: "live",
+    image: "/konassfadventure.png",
+  },
+  {
     name: "Galing Studio",
     description:
       "A curated editorial platform spotlighting Filipino-owned brands doing extraordinary things — stories behind the brands we love.",
