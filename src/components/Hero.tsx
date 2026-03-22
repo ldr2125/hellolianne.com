@@ -34,7 +34,6 @@ function FitText({ text }: { text: string }) {
           fontWeight: 900,
           fontSize: "100px",
           letterSpacing: "-0.02em",
-          textTransform: "uppercase",
           whiteSpace: "nowrap",
           position: "absolute",
           visibility: "hidden",
@@ -53,7 +52,7 @@ function FitText({ text }: { text: string }) {
           letterSpacing: "-0.02em",
           whiteSpace: "nowrap",
         }}
-        className="text-text uppercase select-none"
+        className="text-text select-none"
       >
         {text}
       </h1>
@@ -65,7 +64,9 @@ export default function Hero() {
   return (
     <section className="px-8 md:px-16 pt-14 pb-16">
       <div className="flex flex-col gap-10 md:gap-14">
-        <FitText text="Hello Lianne" />
+        <div className="w-[70%]">
+          <FitText text="Hello, I'm Lianne" />
+        </div>
 
         {/* rule + tagline */}
         <div className="pt-6 border-t border-border">
