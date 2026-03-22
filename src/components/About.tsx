@@ -14,9 +14,12 @@ export default function About() {
 
             <div className="max-w-2xl">
               <p className="text-base md:text-lg text-muted leading-relaxed">
-                When she&apos;s not tinkering and breaking things, you can find
-                her on hikes around the Bay Area with her partner Nick and their
-                deeply goofy Australian Shepherd, Kona.
+                Lianne is an ex-management consultant who now works in tech in
+                the Bay Area. She&apos;s drawn to projects with personality —
+                things that feel useful, playful, or culturally specific. When
+                she&apos;s not tinkering and breaking things, you can find her
+                on hikes with her partner Nick and their deeply goofy Australian
+                Shepherd, Kona.
               </p>
             </div>
           </div>
