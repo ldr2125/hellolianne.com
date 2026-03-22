@@ -63,17 +63,14 @@ function FitText({ text }: { text: string }) {
 export default function Hero() {
   return (
     <section className="px-8 md:px-16 pt-14 pb-16">
-      <div className="flex flex-col gap-10 md:gap-14">
+      <div className="flex flex-col gap-4">
         <div className="w-[70%]">
           <FitText text="Hello, I'm Lianne" />
         </div>
 
-        {/* rule + tagline */}
-        <div className="pt-6 border-t border-border">
-          <p className="text-base md:text-lg text-muted leading-snug">
-            Building things on the internet, scroll to learn more.
-          </p>
-        </div>
+        <p className="text-base md:text-lg text-muted leading-snug">
+          Building things on the internet, scroll to learn more.
+        </p>
       </div>
     </section>
   );
