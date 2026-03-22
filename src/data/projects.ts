@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     name: "Kona's SF Adventure",
     description:
-      "A pixel-art platformer where Kona — our goofy Australian Shepherd — races through the streets of San Francisco to get home before sunset.",
+      "A playful browser game I created to turn my dog, Kona, into a retro platformer hero, combining pixel art, light game design, and a San Francisco-inspired world.",
     url: "/games/konas-sf-adventure",
     tags: ["game", "pixel art", "platformer"],
     status: "live",
